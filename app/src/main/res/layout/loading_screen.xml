@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="casual"
+        android:text="We'll be your eyes"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="40dp"
+
+
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="80dp"
+        android:indeterminate="true" />
+
+
+</RelativeLayout>

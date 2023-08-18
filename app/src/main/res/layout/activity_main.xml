@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6FAAE3E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="cursive"
+        android:text="Lest's see how can I help you"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="170dp"
+        android:layout_height="354dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="184dp"
+        android:layout_height="372dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp" />
+
+    <Button
+        android:id="@+id/tts"
+        android:layout_width="160dp"
+        android:layout_height="202dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:background="@drawable/layout_bg"
+
+        android:text="TTS" />
+
+    <Button
+        android:id="@+id/stt"
+        android:layout_width="160dp"
+        android:layout_height="202dp"
+        android:textSize="40dp"
+
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/layout_bg"
+        android:layout_marginLeft="20dp"
+        android:text="STT" />
+
+</RelativeLayout>
